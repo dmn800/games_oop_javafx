@@ -36,4 +36,11 @@ public enum Cell {
         }
         return rsl;
     }
+
+    @Override //удалить
+    public String toString() {
+        return "Cell " + name() + "{x=" + x
+                + ", y=" + y
+                + '}';
+    }
 }
